@@ -343,4 +343,4 @@ def charger_image_unsplash(model_name, largeur_max=200):
             img = img.resize((largeur_max, int(img.height * ratio)))
         st.image(img, caption=f"Image de {model_name}", use_container_width=False)
     except:
-        st.warning("Impossible de charger l'image automatiquement depuis Unsplash")
+        st.warning("Clé Unsplash non définie. Créez un fichier .env avec UNSPLASH_ACCESS_KEY")
