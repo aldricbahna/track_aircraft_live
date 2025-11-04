@@ -1,0 +1,20 @@
+[project]
+name = "projet-opensky"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "cartopy",
+    "seaborn",
+    "folium",
+    "streamlit_folium",
+    "streamlit",
+    "plotly",
+    "python-dotenv",
+    "opensky-api @ git+https://github.com/openskynetwork/opensky-api.git#egg=opensky-api&subdirectory=python"
+]
