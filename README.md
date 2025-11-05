@@ -19,6 +19,8 @@ streamlit run Home.py
 
 L'application sera accessible dans votre navigateur à l'adresse indiquée par Streamlit (généralement http://localhost:8501)
 
+
+
 2ème solution : naviguer sur le streamlit cloud
 
 [Streamlit cloud ](https://trackaircraftlive-papy.streamlit.app/)
